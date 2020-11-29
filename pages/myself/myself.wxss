@@ -1,0 +1,86 @@
+/* pages/User.wxss */
+
+.User-data1{
+  display: flex;
+  padding: 50rpx;
+
+}
+
+.userinfo-avatar {
+  margin-right: 20rpx ;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+
+}
+.User-name{
+  /* padding-top: 80rpx; */
+  font-size: 35rpx;
+  font-weight: bolder;
+  font: outline;
+}
+
+.User-data2{
+  display: flex;
+  height: 128rpx;
+  margin: 0rpx 20rpx 50rpx 20rpx;
+}
+.User-data2 image{
+  padding-bottom:100rpx ;
+  float: left;
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 50rpx;
+  margin-right:50rpx ;
+}
+.User-data2 image text{
+  font-size:26rpx ;
+}
+
+.User-data2 text{
+    padding-left: 10rpx;
+}
+.My-deal-title text{
+  margin: 40rpx;
+  font-size: 35rpx;
+  font-weight: bolder;
+}
+.My-deal{
+  display: flex;
+
+ 
+}
+.My-deal image{
+  
+  padding: 40rpx 80rpx 90rpx 80rpx ;
+  width: 100rpx;
+  height: 100rpx;
+
+}
+.My-deal image  text{
+  padding: 20rpx auto;
+  font-size: 22rpx;
+}
+
+.system-title{
+  margin: 40rpx;
+  font-size: 35rpx;
+  font-weight: bolder;
+}
+
+.system {
+  display:  flex;
+}
+.system image{
+  
+  padding: 40rpx 80rpx 90rpx 80rpx ;
+  width: 100rpx;
+  height: 100rpx;
+
+}
+.system image  text{
+  padding: 20rpx auto;
+  font-size: 22rpx;
+}
+

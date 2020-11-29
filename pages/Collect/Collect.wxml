@@ -1,0 +1,69 @@
+<!--pages/Collect/Collect.wxml-->
+<view class="list">
+
+<view class="My-data">
+  <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  <text class="userinfo-nickName">{{userInfo.nickName}}</text>
+</view>
+<view class="My-collect">
+    
+        <view class="avatar-data">
+       <image src="/image/user/icon/User-avatar.png"> </image>
+       <view class="user-data">
+        <text class="name">氢氧酸 </text>
+        <text class="time">6小时前来过·西区</text>
+       </view>
+       <text class="price">99元</text>
+       
+        </view>
+        
+        <view class="content">
+          <text>PS5 游戏主机 运行完美 ，白菜价出手</text> 
+          <view class="content-img"> 
+            <image src="/image/ps5_1.png"></image>
+            <image src="/image/ps5_1.png"></image>
+            <image src="/image/ps5_1.png"></image>
+          </view>
+          <button class="collect-btn" style="  width: 140rpx;height: 35rpx; "><image src="/image/user/icon/collect-2.png"></image><text>取消收藏</text> </button>
+        </view>
+        <view class="avatar-data">
+       <image src="/image/user/icon/User-avatar.png"> </image>
+       <view class="user-data">
+        <text class="name">氢氧酸 </text>
+        <text class="time">6小时前来过·西区</text>
+       </view>
+       <text class="price">99元</text>
+       
+        </view>
+        
+        <view class="content">
+          <text>PS5 游戏主机 运行完美 ，白菜价出手</text> 
+          <view class="content-img"> 
+            <image src="/image/ps5_1.png"></image>
+            <image src="/image/ps5_1.png"></image>
+            <image src="/image/ps5_1.png"></image>
+          </view>
+          <button class="collect-btn" style="  width: 140rpx;height: 35rpx; "><image src="/image/user/icon/collect-2.png"></image><text>取消收藏</text> </button>
+        </view>
+        <view class="avatar-data">
+       <image src="/image/user/icon/User-avatar.png"> </image>
+       <view class="user-data">
+        <text class="name">氢氧酸 </text>
+        <text class="time">6小时前来过·西区</text>
+       </view>
+       <text class="price">99元</text>
+       
+        </view>
+        
+        <view class="content">
+          <text>PS5 游戏主机 运行完美 ，白菜价出手</text> 
+          <view class="content-img"> 
+            <image src="/image/ps5_1.png"></image>
+            <image src="/image/ps5_1.png"></image>
+            <image src="/image/ps5_1.png"></image>
+          </view>
+          <button class="collect-btn" style="  width: 140rpx;height: 35rpx; "><image src="/image/user/icon/collect-2.png"></image><text>取消收藏</text> </button>
+        </view>
+</view>
+
+</view>

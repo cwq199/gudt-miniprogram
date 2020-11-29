@@ -1,0 +1,40 @@
+<!--pages/edit/index.wxml-->
+<!--我的资料-->
+<view class="edit_content">
+<view class="edit_info">
+  <view class="edit_icon">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="edit_name">
+    <open-data type="userNickName"></open-data>
+  </view>
+</view>
+<navigator>
+<view class="edit_item">
+  <text class="edit_left">性别：</text>
+  <text class="edit_center">女</text>
+  <text class="edit_right">>></text>
+</view>
+</navigator>
+<navigator>
+<view class="edit_item">
+  <text class="edit_left">手机：</text>
+  <text class="edit_center">1**********</text>
+  <text class="edit_right">>></text>
+</view>
+</navigator>
+<navigator>
+<view class="edit_item">
+  <text class="edit_left">邮箱：</text>
+  <text class="edit_center">135*******@qq.com</text>
+  <text class="edit_right">>></text>
+</view>
+</navigator>
+<navigator>
+<view class="edit_item">
+  <text class="edit_left">个性签名：</text>
+  <text class="edit_center">加油加油加油</text>
+  <text class="edit_right">>></text>
+</view>
+</navigator>
+</view>

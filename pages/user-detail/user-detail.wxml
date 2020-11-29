@@ -1,0 +1,67 @@
+<!--pages/user/index.wxml-->
+<!--个人中心-->
+<view class="user_info_wrap">
+  <view class="user_icon">
+   <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="user_name">
+  <open-data type="userNickName"></open-data>
+  <view class="fan_content">
+  <view class="fan_main">
+  <view class="fan_wrap">
+    <navigator>
+      <view class="fan_num">0</view>
+      <view class="fan_name">超赞</view>
+    </navigator>
+    <navigator>
+      <view class="fan_num">0</view>
+      <view class="fan_name">关注</view>
+    </navigator>
+    <navigator>
+      <view class="fan_num">0</view>
+      <view class="fan_name">粉丝</view>
+    </navigator>
+  </view >
+  <!--编辑资料-->
+  
+  <navigator  catchtap="to_edit" class="edit_wrap" url="../edit/index" open-type="navigate">编辑资料</navigator>
+
+  </view>
+  </view>
+  </view>
+</view>
+<Tabs tabs="{{tabs}}"  binditemChange="handleItemChange" >
+  
+<block wx:if="{{tabs[0].isActive}}">
+    <image  class="comment_logo" src="/image/user-detail/icons/empty2.png"></image>
+    <view class="comment_title">这里没有任何宝贝</view> 
+    <view class="comment">别人的世界花里胡哨，你的世界空空如也~</view>
+    <view >
+      <navigator>
+        <image class="send_wrap" src="/image/user-detail/icons/send1.png"></image>
+      </navigator>
+    </view>
+</block>
+<block wx:elif="{{tabs[1].isActive}}">
+  <image  class="comment_logo" src="/image/user-detail/icons/empty2.png"></image>
+    <view class="comment_title">你还没发过帖子</view> 
+    <view class="comment">最近有什么新鲜事，快去发帖说两句</view>
+    <view >
+      <navigator>
+        <image class="send_wrap" src="/image/user-detail/icons/send1.png"></image>
+      </navigator>
+    </view>
+  
+</block>
+<block wx:elif="{{tabs[2].isActive}}">
+  <image  class="comment_logo" src="/image/user-detail/icons/empty2.png"></image>
+    <view class="comment_title">还没有人评价过你</view> 
+    <view class="comment">作为寂寞高手，世人对你还没有印象~</view>
+</block>
+<block wx:else>
+  <image  class="comment_logo" src="/image/user-detail/icons/empty2.png"></image>
+    <view class="comment_title">你还没有过动态</view> 
+    <view class="comment">不随处留下点痕迹，怎么证明自己活过？</view>
+</block>
+
+</Tabs>

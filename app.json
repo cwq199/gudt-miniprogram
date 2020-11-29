@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/buy/buy",
+    "pages/edit/edit",
+    "pages/sale/sale",
+    "pages/user-detail/user-detail",
+    "pages/myself/myself",
+    "pages/Collect/Collect",
+    "pages/logs/logs",
+    "pages/my_attention/my_attention",
+    "pages/add/add",
+    "pages/my_home_page/my_home_page",
+    "pages/homepage/homepage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF2211",
+    "navigationBarTitleText": "闲置小市场",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/homepage/homepage",
+        "text":"首页"
+      },
+      {
+        "pagePath": "pages/my_home_page/my_home_page",
+        "text": "关注"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "添加"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text":"聊天"
+      },
+      {
+        "pagePath":"pages/myself/myself",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

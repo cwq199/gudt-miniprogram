@@ -1,0 +1,52 @@
+<!--pages/User.wxml-->
+<!-- 用户界面 -->
+<view class="User">
+
+  <!-- 头像名称 -->
+<view catchtap="toUserdetail" class="User-data1">
+  <!-- 头像 -->
+  <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+ 
+  <view>
+      <!-- 用户名 -->
+      <text class="User-name">{{userInfo.nickName}}</text>
+<!-- 用户签名 -->
+<text class="User-signature">\n好好学习，好好吃饭</text>
+  </view>
+
+</view>
+<!--资料栏 -->
+<view class="User-data2">
+     <!-- 收藏 -->
+  <image catchtap="toCollect" class="collect" src="/image/user/icon/collect-1.png"><text>收藏</text> </image>
+  
+  <image class="browse" src="/image/user/icon/browse.png">  <text>浏览</text></image>
+
+  <image class="focus" src="/image/user/icon/focus-2.png">  <text>关注</text></image>
+
+  <image class="fans" src="/image/user/icon/fans.png">  <text>粉丝</text> </image>
+</view >
+<view class="My-deal-title">
+  <text >我的交易</text>
+</view>
+
+
+
+<!-- 我的交易 -->
+<view class="My-deal">
+ 
+  <image src="/image/user/icon/publish.png"><text>我的发布</text></image>
+  <image catchtap="toMysale" src='/image/user/icon/sale.png'><text>我的卖出</text></image>
+  <image catchtap="toMybuy" src="/image/user/icon/get.png"><text>我的购买</text></image>
+
+</view>
+
+<text class="system-title">系统</text>
+
+<view class="system">
+<image src="/image/user/icon/service.png"><text>联系客服</text></image>
+<image src="/image/user/icon/Message.png"><text>消息推送</text></image>
+<image src="/image/user/icon/clear.png"><text>清空缓存</text></image>
+</view>
+
+</view>

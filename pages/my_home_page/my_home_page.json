@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "Tabs":"../../components/Tabs/Tabs"
+  },
+  "navigationBarTitleText": "闲置小市场",
+  "navigationBarBackgroundColor": "#fa5151",
+  "navigationBarTextStyle":"white"
+}

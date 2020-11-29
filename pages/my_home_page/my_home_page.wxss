@@ -1,0 +1,160 @@
+/* pages/index1/index1.wxss */
+page{
+  background-color: rgb(248, 242, 240);
+}
+.user_img_wrap{
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(233, 183, 183);
+}
+.user_bg{
+  height:50vh;
+  background-attachment: fixed;
+  filter: blur(10rpx);
+}
+.info{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top:35%;
+  text-align: center;
+}
+  .user_icon{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+  }
+.user_name{
+  color: #fff;
+  margin-top: 25rpx;
+  font-size: 40rpx;
+}
+.user_img{
+  color: #fff;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+.bottom{
+  display: flex;
+  position: absolute;
+  bottom: 20%;
+  left: 70%;
+}
+
+.attention {
+  width:150rpx;
+  height: 50rpx;
+  background: #fff;
+  color: #000(15, 13, 13);
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  line-height: 50rpx;
+}
+
+.attentionBg {
+  background: rgba(230, 97, 141, 0.966);
+}
+
+.iconConcernSucceed{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+.product_info{
+  float: left;
+  width: 50%;
+  background-color: #fff;
+  height: 180px;
+  width: 40%;
+  border: 1px solid rgb(11, 4, 19);
+  margin-top: 10px;
+  margin-left: 6%;
+  margin-bottom: 10px;
+}
+.product_title{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.product_photo{
+  height: 100px;
+  width: 100%;
+}
+
+.price{
+  margin-left: 10%;
+  position: relative;
+  bottom: 0%;
+  }
+  .play{
+    position: relative;
+    margin-left: 70%;
+    bottom: 11%;
+  }
+ 
+.empty_logo{
+  width: 100px;
+  height: 100px;
+  margin:120px 100px 50px 100px;
+}
+.empty_title{
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.commentator_photo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.comment_picture{
+  width: 70px;
+  height: 70px;
+}
+.comment_wrap{
+ margin-top: 10px;
+  position: relative;
+  
+}
+.comment_content{
+  position: absolute;
+  left:55%;
+  transform: translateX(-50%);
+  top:0%; 
+  width: 75%;
+}
+.commentor_name{
+  color:grey
+}
+.comment_time{
+  font-size: 10px;
+}
+
+.post_time{
+  margin-top: 10px;
+}
+.post_title{
+  color: grey;
+  font-size: 10px;
+}
+.post_wrap{
+  background-color: #fff;
+  position: relative;
+}
+.post_picture{
+  width: 80px;
+  height: 80px;
+}
+.item_wrap{
+  position: absolute;
+  left:65%;
+  transform: translateX(-50%);
+  top:0%; 
+  width: 75%;
+}

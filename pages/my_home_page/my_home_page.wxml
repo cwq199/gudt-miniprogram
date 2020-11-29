@@ -1,0 +1,134 @@
+<!-- 我的主页 -->
+<view class='user_info_wrap'>
+  <view class='user_img_wrap'>
+    <image class='user_bg' src="/image/homepage/2.png"> </image>
+    <view class="info">
+    <image class="user_icon" src="/image/homepage/2.png"></image>
+    <view class="user_name">昵称</view>
+    <view class="user_img">个性签名</view>
+    </view>
+ 
+  <view  class="bottom">
+  <button  wx:for="{{title}}" 
+  wx:key  class="attention {{ item.likes == 0 ?'attentionBg':''}}" bindtap="getUserInfo"  data-likes="{{item.likes}}" data-index="{{index}}" >{{item.likes=='0'?'已关注':'✙ 关注'}}</button>
+</view>
+  </view>
+  </view>
+
+
+<view class="picture_wrap">
+  <Tabs tabs="{{tabs}}"binditemChange="handleItemChange">
+ <block wx:if="{{tabs[0].isActive}}">
+   <view class="product_wrap">
+     <navigator url="/pages/product_detail/product_detail">
+       <view class="product_info">
+       <image class="product_photo" src="/image/homepage/1.png"></image>
+       <view class="product_title">这个宝贝很好很好很好很好很好很好很好很好很好很好</view>
+       <!--价格-->
+        <view class="price">
+          <text class="price_photo">¥</text>
+         <!-- <image class="price_photo" src="/glgs/price.png"></image>-->
+          <text class="price_number">100</text>
+        </view>
+        <!--点击量-->
+        <view class="play">
+          <text class="play_photo">☝</text>
+          <!--<image class="play_photo" src="/glgs/play.png"></image>-->
+          <text class="play_number">10</text>
+        </view>
+      </view>
+     </navigator>
+     <navigator url="/pages/product_detail/product_detail">
+       <view class="product_info">
+       <image class="product_photo" src="/image/homepage/1.png"></image>
+       <view class="product_title">这个宝贝很好很好很好很好很好很好很好很好很好很好</view>
+       <!--价格-->
+        <view class="price">
+          <text class="price_photo">¥</text>
+         <!-- <image class="price_photo" src="/glgs/price.png"></image>-->
+          <text class="price_number">100</text>
+        </view>
+        <!--点击量-->
+        <view class="play">
+          <text class="play_photo">☝</text>
+          <!--<image class="play_photo" src="/glgs/play.png"></image>-->
+          <text class="play_number">10</text>
+        </view>
+      </view>
+     </navigator>
+     <navigator url="/pages/product_detail/product_detail">
+       <view class="product_info">
+       <image class="product_photo" src="/image/homepage/1.png"></image>
+       <view class="product_title">这个宝贝很好很好很好很好很好很好很好很好很好很好</view>
+       <!--价格-->
+        <view class="price">
+          <text class="price_photo">¥</text>
+         <!-- <image class="price_photo" src="/glgs/price.png"></image>-->
+          <text class="price_number">100</text>
+        </view>
+        <!--点击量-->
+        <view class="play">
+          <text class="play_photo">☝</text>
+          <!--<image class="play_photo" src="/glgs/play.png"></image>-->
+          <text class="play_number">10</text>
+        </view>
+      </view>
+     </navigator>
+     <navigator url="/pages/product_detail/product_detail">
+       <view class="product_info">
+       <image class="product_photo" src="/image/homepage/1.png"></image>
+       <view class="product_title">这个宝贝很好很好很好很好很好很好很好很好很好很好</view>
+       <!--价格-->
+        <view class="price">
+          <text class="price_photo">¥</text>
+          <text class="price_number">100</text>
+        </view>
+        <!--点击量-->
+        <view class="play">
+          <text class="play_photo">☝</text>
+          <text class="play_number">10</text>
+        </view>
+      </view>
+     </navigator>
+   </view>
+ </block>  
+
+<!--帖子-->
+  <block wx:elif="{{tabs[1].isActive}}">
+  <image class="empty_logo" src="/image/homepage/empty.png"></image>
+  <view class="empty_title">这里空空如也！</view>
+  </block>
+<!--评论-->
+  <block wx:elif="{{tabs[2].isActive}}">
+<view class="comment_wrap">
+  <image class="commentator_photo" src="/image/homepage/3.png"></image>
+  <view class="comment_content">
+    <view class="commentor_name">塔塔</view>
+    <view class="comment_title">这个商品很好</view>
+    <image class="comment_picture" src="/image/homepage/1.png"></image>
+    <view class="comment_time">2020-11-22</view>
+  </view>
+</view>
+  </block>
+  <!--动态-->
+  <block wx:elif="{{tabs[3].isActive}}">
+<view class="post_time">11月22日</view>
+<view class="post_title">卖出了一件宝贝</view>
+<view class="post_wrap">
+<image class="post_picture" src="/image/homepage/1.png"></image>
+<view class="item_wrap">
+<view class="post_item">超好看的书无字迹,超好看的书无字迹,超好看的书无字迹,</view>
+</view>
+</view>
+<view class="post_time">11月22日</view>
+<view class="post_title">卖出了一件宝贝</view>
+<view class="post_wrap">
+<image class="post_picture" src="/image/homepage/1.png"></image>
+<view class="item_wrap">
+<view class="post_item">超好看的书无字迹,超好看的书无字迹,超好看的书无字迹,</view>
+</view>
+</view>
+  </block>
+</Tabs>
+</view>
+

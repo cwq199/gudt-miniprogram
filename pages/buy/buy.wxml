@@ -1,0 +1,39 @@
+<!--我的购买-->
+<view class="buy_content">
+  <!--第一个-->
+<navigator>
+  <view class="buy_wrap">
+    <!--左边 图片容器-->
+    <view class="buy_goods">     
+      <image mode="widthFix" src="/image/sale/math.jpg"></image> 
+    </view>
+    <!--右边 商品容器-->
+    <view class="buy_info">
+      <view class="buy_name">高等数学太难学了啊啊啊啊啊学不会啊啊啊啊啊啊啊啊啊啊啊啊</view>
+      <view class="buy_price">￥15</view>
+    </view>
+  </view>
+</navigator>
+  <view class="buy_item">
+   <navigator class="item_left">💬联系卖家</navigator> 
+   <navigator class="item_right">🖊去评价</navigator>
+  </view>
+    <!--第二个-->
+<navigator>
+  <view class="buy_wrap">
+    <!--左边 图片容器-->
+    <view class="buy_goods">
+      <image mode="widthFix" src="/image/sale/math.jpg"></image>
+    </view>
+    <!--右边 商品容器-->
+    <view class="buy_info">
+      <view class="buy_name">高等数学太难学了啊啊啊啊啊学不会啊啊啊啊啊啊啊啊啊啊啊啊</view>
+      <view class="buy_price">￥15</view>
+    </view>
+  </view>
+</navigator>
+  <view class="buy_item">
+   <navigator class="item_left">💬联系卖家</navigator> 
+   <navigator class="item_right">🖊去评价</navigator>
+  </view>
+</view>

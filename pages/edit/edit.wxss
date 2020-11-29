@@ -1,0 +1,42 @@
+
+page{
+  background-color: rgb(235, 230, 230);
+}
+.edit_icon{
+  width: 250rpx;
+  height: 250rpx;
+  margin: 50rpx auto;
+}
+.edit_name{
+  margin: -40rpx;
+  margin-bottom: 10rpx;
+  text-align: center;
+}
+.edit_item{
+  height: 70rpx;
+  background-color: #fff;
+  margin: 20rpx;
+  display: flex;
+  border-radius: 20rpx;
+  
+}
+.edit_left{
+  padding: 10rpx 0 0 20rpx;
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+.edit_center{
+  padding: 10rpx;
+  display: flex;
+  flex: 10;
+  justify-content: flex-start;
+}
+.edit_right{
+  padding: 10rpx;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  color: #ccc;
+  margin-right: 20rpx;
+}
